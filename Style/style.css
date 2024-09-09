@@ -6,6 +6,19 @@
     background-color: #e9dccc;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10vh;
+}
 
+.icon {
+    width: 50px;
+    transition: transform 0.3s ease;
+}
 
-
+.icon:hover {
+    transform: translateY(-10px) rotate(5deg);
+}
