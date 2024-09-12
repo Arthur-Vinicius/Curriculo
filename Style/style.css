@@ -27,3 +27,7 @@
 .section{
     margin-top: -5;
 }
+
+.body{
+    font-size: 2rem !important;
+}
