@@ -1,1 +1,1 @@
-era apenas a opção do git de rebase
+to escrevendo um teste apenas, para testa o erro de rebase de git
