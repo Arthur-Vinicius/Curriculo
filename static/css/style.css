@@ -20,12 +20,18 @@
     transition: transform 0.3s ease;
 }
 
+.icon_flask{
+    width: 70px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
 .icon:hover {
     transform: translateY(-10px) rotate(5deg);
 }
 
-.section{
-    margin-top: -5;
+.icon_flask:hover{
+    transform: translateY(-10px) rotate(5deg);
 }
 
 .body{
