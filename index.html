@@ -11,15 +11,11 @@
   <link rel="stylesheet" href="static/css/style.css">
 
 </head>
-  
+
 <body class="body-bgcolor body">
-<<<<<<< HEAD
-  <!-- TODO - Ao usar a navegação, sempre que seleciona a home falta subir mais um espaço para cima// resolvido, era a margem que criava espaços para cima, passando da viewport-->
-  <nav class="navbar navbar-expand-md navbar-light bg-color-012E40 fixed-top overflow-auto">
-=======
   <!-- TODO - Estilizar navbar, deixar redonda e destacar links-->
+  <aside class="">
   <nav class="navbar navbar-expand-md navbar-light bg-color-012E40 fixed-top">
->>>>>>> b794ce4 (TODO adcionados)
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +27,16 @@
             <a class="nav-link text-light" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item mx-1">
-            <a href="#sobremim" class="nav-link text-light" >Sobre mim</a>
+            <a href="#sobremim" class="nav-link text-light">Sobre mim</a>
           </li>
           <li class="nav-item mx-1">
-            <a href="#projetos" class="nav-link text-light" >Projetos</a>
+            <a href="#projetos" class="nav-link text-light">Projetos</a>
           </li>
           <li class="nav-item mx-1">
             <a href="#habilidades" class="nav-link text-light">Habilidades</a>
           </li>
           <li class="nav-item mx-1">
-            <a href="#curriculo" class="nav-link text-light" >Curriculo</a>
+            <a href="#curriculo" class="nav-link text-light">Curriculo</a>
           </li>
           <!--<li class="nav-item mx-1">
             <a href="#contato" class="nav-link text-light" >Contato</a>
@@ -51,110 +47,214 @@
         </ul>
       </div>
     </div>
-  </nav> 
+  </nav>
+  </aside>
 
   <!-- TODO - Resolver erro de conteudos se sobrepondo ao terminar a section.-->
-  <section id="home" class="">
-    <div class="container-fluid vh-100 d-flex align-items-center">
-      <div class="row">
+  <main class="main">
+    <section id="home" class="row p-0 m-0 ">
+      <div class="container-fluid vh-100 d-flex align-items-center row">
         <div class="col-sm-4 d-flex justify-content-center align-items-center mt-5">
           <img class="img-fluid w-50  " src="static/PersonagemPixel.png">
         </div>
         <div class="col-sm-8">
           <h1 class="text-center">Olá, Meu nome é Arthur!</h1>
           <h3 class="text-center">desenvolvedor Backend</h3>
-            <p class="apresentacao text-center">
-              Esta é minha página de apresentação. Aqui você poderá ver alguns dos meus conhecimentos de programação aplicados na própria página. <br><br>
-              
-              <h4 class="col-12 d-flex align-items-center justify-content-center">Tecnologias usadas neste site</h4>
-              <div class="icon-container">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Icon" class="icon">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 Icon" class="icon">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Icon" class="icon">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap Icon" class="icon">
-              </div>
-            </p>
+          <p class="apresentacao text-center">
+            Esta é minha página de apresentação. Aqui você poderá ver alguns dos meus conhecimentos de programação
+            aplicados na própria página. <br><br>
+
+          <h4 class="col-12 d-flex align-items-center justify-content-center">Tecnologias usadas neste site</h4>
+          <div class="icon-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Icon"
+              class="icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 Icon"
+              class="icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Icon"
+              class="icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap Icon"
+              class="icon">
+          </div>
+          </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="sobremim" class="mt-1">
-    <div class="container-fluid vh-100 pt-4 vh-100 pt-4">
-      <h3 class="mt-5 py-3">Sobre mim</h3>
-      <p class="infosSobreMim">
-
-          Possuo conhecimento em diversas linguagens de programação e uma base sólida em lógica de programação. Sou um aprendiz rápido e tenho um grande interesse em conhecer a fundo as tecnologias com as quais trabalho. Embora minha experiência em programação seja básica, estou sempre buscando aprender e me aprimorar.
+    <section id="sobremim" class="container mt-5 w-100">
+      <div class="pt-5 row">
+        <h3 class="pt-5">Sobre mim</h3>
+        <p class="infosSobreMim">
+          Possuo conhecimento em diversas linguagens de programação e uma base sólida em lógica de programação. Sou um
+          aprendiz rápido e tenho um grande interesse em conhecer a fundo as tecnologias com as quais trabalho. Embora
+          minha experiência em programação seja básica, estou sempre buscando aprender e me aprimorar.
           <br><br>
-          Minha experiência inclui um estágio na Unimed Porto Velho, onde estudei e desenvolvi sistemas em PHP e Laravel. Além disso, desenvolvi pequenos projetos pessoais focados no desenvolvimento web com foco no backend. Tenho experiência com tecnologias como Laravel, Django, Flutter, Bootstrap, Docker e Linux.
+          Minha experiência inclui um estágio na Unimed Porto Velho, onde estudei e desenvolvi sistemas em PHP e
+          Laravel. Além disso, desenvolvi pequenos projetos pessoais focados no desenvolvimento web com foco no backend.
+          Tenho experiência com tecnologias como Laravel, Django, Flutter, Bootstrap, Docker e Linux.
           <br><br>
-          Anseio desenvolver projetos com destreza e aptidão, me tornar desenvolvedor em tempo integral e viver de programação.
+          Anseio desenvolver projetos com destreza e aptidão, me tornar desenvolvedor em tempo integral e viver de
+          programação.
+        </p>
+      </div>
+      <!--<div class="row mt-4">
+        <div class="col-md-4">
+          <img src="./static/PersonagemPixel.png" alt="Imagem pixel art " class="img-fluid shadows"> 
+        </div>
+      </div>-->
+    </section>
 
-      </p>
-    </div>
-  </section>
-
-   <section id="projetos" class="mt-1">
-    <div class="container-fluid vh-100 pt-4">
-      <h3 class="mt-5 py-3">Projetos</h3>
-      <p class="Projetos">
-        <!--Meus projetos e intenções.
-
-        Portifolio
-
-        Projetos JavaScript
-
-        Projetos Django
-
-        Projetos Laravel-->
-
-        <h1>EM BREVE</h1>
-
-        Infelizmente passei por um momento de frustração total com a area de desenvimento de software e acabei excluindo todos meus projetos que existiam em meu git hub, estarei me dedicando para desenvolver e distribuir projetos open-source para agregar em meu curriculo e experiencia.
-        <br><br>
-        Pretendo desenvolver projetos com tecnologias que tenho bastante afinidade, essas tecnologias são:
-        <br><br>
-        Javascript<br>
-        Django<br>
-        Laravel<br>
-        <br><br>
-        tambem tenho bastante interesse em aprender desenvolvimento mobile utilizando Dart e Flutter
-      </p>
-    </div>
-  </section>
-
-  <section id="habilidades" class="mt-1">
-    <div class="container-fluid vh-100 pt-4">
-      <h3 class="mt-5 py-3">habilidades</h3>
-      <p class="habilidades">
-        Desenvolvimento Web:<br>
+    <section id="projetos" class="mt-5 w-100">s
+      <div class="container pt-5">
+        <h3 class="pt-5 pb-3">Projetos</h3>
+        <p class="Projetos fs-5">
+          Infelizmente passei por um momento de frustração total com a area de desenvimento de software e acabei excluindo
+          todos meus projetos que existiam em meu git hub, estarei me dedicando para desenvolver e distribuir projetos
+          open-source para agregar em meu curriculo e experiencia.
+          </p>
+        <div id="carouselCardsProjects" class="carousel carousel-dark slide p-5" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCardsProjects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselCardsProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="100000000000000">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card rounded">
+                    <img src="./static/em-breve.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body ">
+                      <h5 class="card-title">Painel de Senhas</h5>
+                      <p class="card-text">Projeto criado para atender a nescessidade de um sistema de chamadas de senhas para atendimento em recepções </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded">
+                    <img src="./static/em-breve.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gestor de Estoque</h5>
+                      <p class="card-text">Sistema de Gestão de estoque, reconhecimento de produtos e marcação de emprestimo de equipamentos de T.I. </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded">
+                    <img src="./static/em-breve.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Assistente IA</h5>
+                      <p class="card-text">Assistente IA para ajudar com tarefas que tem que ser feitas, focando em otimizar e organizar o dia a dia. </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000000000000">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card rounded">
+                    <img src="./static/em-breve.jpg" class="card-img-top rounded"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Portifolio em Django</h5>
+                      <p class="card-text">Portifolio Web feito em Django </p>
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded">
+                    <img src="./static/em-breve.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ferramentas Imobiliarias</h5>
+                      <p class="card-text">App mobile para imobiliarias </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded">
+                    <img src="./static/em-breve.jpg" class="card-img-top rounded" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pokedex</h5>
+                      <p class="card-text">Pokedex interativa </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="" target="_blank" class="btn btn-outline-dark me-3">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCardsProjects" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCardsProjects" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         
+      </div>
+    </section>
+
+    <section id="habilidades" class="container mt-5 w-100">
+      <div class="pt-5">
+        <h3 class="pt-5">habilidades</h3>
+        <p class="habilidades">
+          Desenvolvimento Web:<br>
+
           PHP
           Laravel
-          
+
           Javascrip
-          
+
           Python
           Django
           <br><br>
-        Gerenciamento de Servidores:<br>
-          Docker 
+          Gerenciamento de Servidores:<br>
+          Docker
           linux
           AWS
           Virtual Box
           <br><br>
-        Hacking e Segurança:<br>
+          Hacking e Segurança:<br>
           Penteste
           Kali linux
           OWASPB
           <br><br>
-        
 
-      </p>
-    </div>
-  </section>
 
-  <!--<section id="apoiar" class="mt-1">
+        </p>
+      </div>
+    </section>
+
+    <!--<section id="apoiar" class="mt-1">
     <div class="container-fluid vh-100 pt-4">
       <h3 class="mt-5 pt-3">Apoiar</h3>
       <p class="apoiar">
@@ -166,35 +266,26 @@
     </div>
   </section>
 -->
-  <section id="curriculo" class="mt-1">
-    <div class="container-fluid vh-100 pt-4">
-      <h3 class="mt-5 pt-3">Curriculo</h3>
-      <p class="curriculo">
-        Meu curriculo em pdf para donwload
+    <section id="curriculo" class="container mt-5 w-100">
+      <div class="pt-5">
+        <h3 class="pt-5">Curriculo</h3>
+        <p class="curriculo">
+          Meu curriculo em pdf para donwload
 
-        
-      </p>
-    </div>
-  </section>
 
+        </p>
+      </div>
+    </section>
+  </main>
   <footer class="container-fluid d-flex justify-content-center flex-grow-1 bg-color-012E40 p-2 ">
-<<<<<<< HEAD
-    <!-- TODO - Criar e estilizar footer-->
-        <a target="_blank" href="https://www.instagram.com/t.arthursouza/"><i class="bi bi-instagram p-2 dark"></i></a>
-=======
-        <a href="https://www.instagram.com/t.arthursouza/"><i class="bi bi-instagram p-2 dark"></i></a>
->>>>>>> b794ce4 (TODO adcionados)
-        <br>
-        <a target="_blank" href="https://www.linkedin.com/in/arthur-vinicius-467b991b4"><i class="bi bi-linkedin p-2"></i></a>
-        <br>
-        <a target="_blank" href="https://github.com/Arthur-Vinicius"><i class="bi bi-github p-2"></i></a>
-        <br>
-<<<<<<< HEAD
-        <a target="_blank" href="https://www.youtube.com/@arthurvinicius9215"><i class="bi bi-youtube p-2"></i></a> 
-
-=======
-        <a href="https://www.youtube.com/@arthurvinicius9215"><i class="bi bi-youtube p-2"></i></a> 
->>>>>>> b794ce4 (TODO adcionados)
+    <a href="https://www.instagram.com/t.arthursouza/"><i class="bi bi-instagram p-2 dark"></i></a>
+    <br>
+    <a target="_blank" href="https://www.linkedin.com/in/arthur-vinicius-467b991b4"><i
+        class="bi bi-linkedin p-2"></i></a>
+    <br>
+    <a target="_blank" href="https://github.com/Arthur-Vinicius"><i class="bi bi-github p-2"></i></a>
+    <br>
+    <a href="https://www.youtube.com/@arthurvinicius9215"><i class="bi bi-youtube p-2"></i></a>
   </footer>
   <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="static/javascript/javascript_custum.js"></script>
