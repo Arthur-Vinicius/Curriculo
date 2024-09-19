@@ -1,9 +1,15 @@
+html,
+body {
+  font-family: Ubuntu, Arial;
+  width: 100%;
+  height: 100%;
+}
 .bg-color-012E40 {
     background-color: #05455e;
 }
 
 .body-bgcolor {
-    background-color: #29282c;
+    background-color: #acacac;
 }
 
 .body-bgcolor2 {
@@ -52,23 +58,28 @@
 *::-webkit-scrollbar-thumb{
    background-color:#05455e;
 }
-.carousel-control-prev{
-    margin-left: -6rem !important;
+.carousel-control-prev_custum{
+    margin-left: -8rem;
 }
-.carousel-control-next{
-    margin-right: -6rem !important;
+  
+.carousel-control-next_custum{
+    margin-right: -18rem;
 }
+
 .carousel-indicators{
     margin-bottom: -35px;
 }
+
 @media (max-width: 1860px){
     .carousel-control-prev{
-     margin-left: 0;
+      margin-left: 0;
     }
+    
     .carousel-control-next{
-     margin-right: 0;
+      margin-right: 0;
     }
 }
+
 .rounded {
     border-radius: 1rem !important;
 }
