@@ -3,21 +3,19 @@ body {
   font-family: Ubuntu, Arial;
   width: 100%;
   height: 100%;
-  color: #000000;
+  color: #FDFBE4;
 }
 .bg-color-012E40 {
-    background-color: #000000;
+    background-color: #1d1d1d;
 }
 
 .body-bgcolor {
-    background-color: #a7abb7;
+    background-color: #000000;
 }
 
 .body-bgcolor2 {
-    background-color: #dfcab0;
+    background-color: #fcfcfc;
 }
-
-
 .icon-container {
     display: flex;
     justify-content: center;
@@ -25,22 +23,17 @@ body {
     gap: 20px;
     height: 10vh;
 }
-
 .icon {
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease;
 }
-
-
 .icon:hover {
     transform: translateY(-10px) rotate(5deg);
 }
-
 .icon_flask:hover{
     transform: translateY(-10px) rotate(5deg);
 }
-
 .body{
     font-size: 1.5rem !important;
 }
@@ -66,11 +59,9 @@ body {
 .carousel-control-next{
     margin-right: -8rem !important;
 }
-
 .carousel-indicators{
     margin-bottom: -35px;
 }
-
 @media (max-width: 1860px){
     .carousel-control-prev{
       margin-left: 0 !important;
@@ -80,12 +71,13 @@ body {
       margin-right: 0 !important;
     }
 }
-
 .rounded {
     border-radius: 1rem !important;
 }
-
 .nav-link{
-    color: #6d82fc !important;
+    color: #ffffff !important;
+}
+.fcolor{
+    color: #000000;
 }
 
