@@ -13,8 +13,7 @@ body {
 
 #foto_home{
    background-color: #6969c1; 
-   border: 0.2rem solid #46467a;
-   border-radius: 2rem;
+   border: 2rem outset #3e3e74;
    padding: 1rem;
 }
 .fs_4-5rem{
